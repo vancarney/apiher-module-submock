@@ -1,6 +1,6 @@
 {
   "author": "Van Carney <carney.van@gmail.com>",
-  "name": "apihero-module-mock",
+  "name": "apihero-module-submock",
   "description": "Mocked Module for Test Cases",
   "keywords": ["module","test","mock", "extension"],
   "version": "0.0.1",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "github.com/vancarney/rikki-tikki.git"
+    "url": "github.com/vancarney/apihero-module-submock.git"
   },
   "dependencies": {
   },
@@ -23,6 +23,7 @@
   "apihero": {
   	"extends": "apihero-module-mock",
   	"assets": {
+  		"templates": "jade/index.js"
   	}
   }
 }
